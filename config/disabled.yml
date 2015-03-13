@@ -48,3 +48,10 @@ Style/SymbolArray:
 Style/ExtraSpacing:
   Description: 'Do not use unnecessary spacing.'
   Enabled: false
+
+##################### Rails ##################################
+
+Rails/AvoidDefaultScope:
+  Description: 'Avoid the use of default_scope.'
+  StyleGuide: 'http://rails-bestpractices.com/posts/2013/06/15/default_scope-is-evil/'
+  Enabled: false

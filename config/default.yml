@@ -666,6 +666,10 @@ Rails/ActionFilter:
   Include:
     - app/controllers/**/*.rb
 
+Rails/AvoidDefaultScope:
+  Include:
+    - app/models/**/*.rb
+
 Rails/Date:
   # The value `always` disallows usage of `Date.today`, `Date.current`,
   # `Date#to_time` etc.
